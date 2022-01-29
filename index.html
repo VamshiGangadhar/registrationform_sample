@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		A{
+			text-decoration: none;
+		}
+		C{
+			float: right;
+		}
+	</style>
+</head>
+<body align="center">
+	<div style="background-color: #101E80">
+		<nav class="A">
+			<br>
+			<a style="color: white" href="ourcollege.html">Our College|</a>
+			<a style="color: white" href="Departments.html">Departments|</a>
+			<a style="color: white" href="Contact.html">Contact|</a>
+			<a style="color: white" href="Faculty.html">Faculty</a>
+			<br>
+			<br>
+		</nav>
+	</div>
+	<div>
+		<img style="padding-left: 100px" height="170px" src="image\j.png" align="left">
+	</div>
+	<img style="float: right;padding-right: 100px;" height="170px" src="image\NBA.png">
+	<br>
+	<h2 style="color: blue">
+		<a class="A" href="https://jntukucev.ac.in/"> JNTUK-UNIVERSITY COLLEGE OF ENGINEERING, VIZIANAGARAM</a></h2>
+	<h2 style="color: RED">JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY,KAKINADA</h2>
+	<br>
+	<br>
+	<table border="2" cellpadding="5" cellspacing="5" align="center">
+		<center>
+		<form>
+		<tr>
+			<th colspan="2">Application Form</th>
+		</tr>
+		<tr>
+			<th>First Name</th>
+			<td>
+				<input type="textbox" name="FirstName" maxlength="10" required>
+			</td>
+		</tr>
+		<tr>
+			<th>Middle Name</th>
+			<td>
+				<input type="textbox" name="MiddleName" maxlength="10" required>
+			</td>
+		</tr>
+		<tr>
+			<th>Last Name</th>
+			<td>
+				<input type="textbox" name="LastName" maxlength="10" required>
+			</td>
+		</tr>
+		<tr>
+			<th>Mobile Number</th>
+			<td>
+				<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+			</td>
+		</tr>
+		<tr>
+			<th>EmailId</th>
+			<td>
+				<input type="email" name="EmailId" maxlength="25" required>
+			</td>
+		</tr>
+		<tr>
+			<th>Address</th>
+			<td><textarea rows="5" cols="25" maxlength="125" required></textarea></td>
+		</tr>
+		<tr>
+			<th>Education qualification</th>
+			<td>
+				SSC<input type="checkbox" name="SSC"><br>
+				INTER<input type="checkbox" name="INTER"><br>
+				DIPLOMA<input type="checkbox" name="DIPLOMA"><br>
+				B.TECH<input type="checkbox" name="B.TECH"><br>
+				M.TECH<input type="checkbox" name="M.TECH"><br>
+				PH.D<input type="checkbox" name="PH.D">
+			</td>
+		</tr>
+		<tr>
+			<th>Gender</th>
+			<td>
+				Male<input type="radio" name="Gender">
+				Female<input type="radio" name="Gender">
+			</td>
+		</tr>
+		<tr>
+			<th>Hostel Facility</th>
+			<td>
+				Yes<input type="radio" name="YesOrNo">
+				No<input type="radio" name="YesOrNo">
+			</td>
+		</tr>
+		<tr>
+			<th>Upload Photo</th>
+			<td>
+				<input type="file" name="filename">
+			</td>
+		</tr>
+		<tr>
+			<th>Branch</th>
+			<td>
+				<select>
+					<option>IT</option>
+					<option>CSE</option>
+					<option>EEE</option>
+					<option>ECE</option>
+					<option>CIVIL</option>
+					<option>MECH</option>
+					<option>MET</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button>OK</button>
+				<input type="submit" name="submit" value="submit">
+				<input type="reset" name="reset" value="reset">
+			</td>
+		</tr>
+		</form>
+		</center>
+	</table>
+</body>
+</html>
